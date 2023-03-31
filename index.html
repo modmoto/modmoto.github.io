@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Wilkommen</title>
+
+        <style>
+            @font-face {
+                font-family: "MeineSchrift";
+                src:url(./RichTheBarberPersonalUse-gx824.ttf)
+            }
+
+            body {
+                background-color: rgb(77, 49, 1);
+                color: rgb(160, 12, 228);
+                font-family: "MeineSchrift";
+
+                background-image: linear-gradient(to bottom right, green, red);
+                background-repeat: no-repeat;
+            }
+
+            .yellow-border {
+                border-color: yellow;
+                border-style: dashed;
+                border-width: 2px;
+                border-radius: 10px;
+            }
+
+            .primary-color {
+                background-color: rgb(14, 85, 61);
+                color: black;
+            }
+
+            .secondary-color {
+                background-color: rgb(205, 100, 58);
+                color: black;
+            }
+
+            .platz-nach-innen {
+                padding-left: 150px;
+                margin: 20px;
+                padding-bottom: 20px;
+            }
+
+            .platz-nach-außen {
+                margin-top: -42px;
+                margin-left: 200px;
+                background-color: transparent;
+            }
+
+            .hoverbar:hover {
+                box-shadow: 10px 10px 10px black;
+                background-image: linear-gradient(to bottom right, blue, pink);
+            }
+
+            .pizza {
+                background-image: url(./pizza.jfif);
+                background-size: cover;
+                width: 350px;
+                height: 350px;
+                margin: 20px;
+                margin: 10px;
+            }
+
+            .pizza-beschreibung {
+                color: transparent;
+                text-align: center;
+                font-size: 60px;
+                padding-top: 80%;
+            }
+
+            .pizza-beschreibung:hover {
+                color: rgb(35, 85, 250);
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <h1 class="hoverbar platz-nach-innen primary-color yellow-border" title="das ist meine header">
+            Willkommen auf meinen Gästebuch
+        </h1>
+       
+        <div class="pizza">
+            <div class="pizza-beschreibung">
+                Pizza Hawai
+            </div>
+        </span>
+        <div>
+            <input type="text">
+            <button class="primary-color">Gruß dalassen</button>
+        </div>
+        <div>
+            <input type="radio"><span>Die Seite gefällt mir</span><br/>
+            <input type="radio"><span>Die Seite gefällt mir gar nicht</span><br/>
+        </div>
+        
+    </body>
+</html>
